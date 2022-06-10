@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from "./components/header/Header";
-import {Button} from "react-bootstrap";
-
+import Slider from "./components/slider/Slider";
 const App = () => {
     return (
-        <div className="">
-            <Header />
+        <div className="px-5">
+            <Header/>
+            <Slider />
         </div>
+
     );
 };
 

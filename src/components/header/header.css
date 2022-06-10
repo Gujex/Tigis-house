@@ -38,7 +38,6 @@
 .dropdown-content li:hover {
     background-color: #efefef;
     cursor: pointer;
-
 }
 
 .dropdown:hover .dropdown-content {

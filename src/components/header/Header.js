@@ -6,7 +6,7 @@ import {AiOutlineUser, AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/
 const Header = () => {
     return (
         <div>
-            <nav className=" px-5 d-flex align-items-center justify-content-between w-100 border-bottom flex-wrap">
+            <nav className="  d-flex align-items-center justify-content-between w-100 border-bottom flex-wrap">
                 <ul className="d-flex list-unstyled col-lg-5 ">
                     <li className='nav_item m-2'>Home</li>
                     <div className="dropdown">
