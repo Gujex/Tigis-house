@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from '../../images/logos/Logo.png'
 import "./header.css"
-import {BsSearch} from 'react-icons/bs'
-import {AiOutlineUser, AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/ai'
+import Icons from "./header-icons/icons";
 const Header = () => {
     return (
         <div>
@@ -25,12 +24,7 @@ const Header = () => {
                 <div className="col-lg-2">
                     <img width="auto" height={120} className="h-5 " alt="logo" src={logo}/>
                 </div>
-                <ul className="d-flex list-unstyled col-lg-5 justify-content-end">
-                    <li className='nav_item m-2'><BsSearch size={28}/></li>
-                    <li className='nav_item m-2'><AiOutlineUser size={30}/></li>
-                    <li className='nav_item m-2'><AiOutlineHeart size={30}/></li>
-                    <li className='nav_item m-2'><AiOutlineShoppingCart size={30}/></li>
-                </ul>
+               <Icons />
             </nav>
         </div>
     );

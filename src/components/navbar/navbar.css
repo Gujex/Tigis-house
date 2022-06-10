@@ -1,20 +1,9 @@
-.dropbtn {
-    margin: 0.5rem;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 9999999;
+    z-index: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     -webkit-box-orient: vertical;
@@ -35,13 +24,8 @@
     border: none;
 }
 
+
 .dropdown-content li:hover {
     background-color: #efefef;
     cursor: pointer;
-
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    cursor: pointer
 }

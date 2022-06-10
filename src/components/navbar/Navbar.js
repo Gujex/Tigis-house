@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <ul className="list-group">
+            <ul className="dropdown-content products_list " id="to-show">
                 <li className="list-group-item">Cras justo odio</li>
                 <li className="list-group-item">Dapibus ac facilisis in</li>
                 <li className="list-group-item">Morbi leo risus</li>
