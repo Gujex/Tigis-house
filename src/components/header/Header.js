@@ -2,12 +2,11 @@ import React from 'react';
 import logo from '../../images/logos/Logo.png'
 import "./header.css"
 import Icons from "./header-icons/Icons";
-import {BsSearch} from 'react-icons/bs'
-import {AiOutlineUser, AiOutlineHeart, AiOutlineShoppingCart} from 'react-icons/ai'
+
 const Header = () => {
     return (
         <div>
-            <nav className="  d-flex align-items-center justify-content-between w-100 border-bottom flex-wrap">
+            <nav className=" d-flex align-items-center justify-content-between w-100 border-bottom flex-wrap">
                 <ul className="d-flex list-unstyled col-lg-5 ">
                     <li className='nav_item m-2'>Home</li>
                     <div className="dropdown">
