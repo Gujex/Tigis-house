@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const Slider = () => {
     return (
-        <div>
+        <div >
             <Carousel>
                 <Carousel.Item interval={3000}>
                     <div className='image' style={{backgroundImage: 'url(\'https://picsum.photos/2500/1500\')'}}></div>
