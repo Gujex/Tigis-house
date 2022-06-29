@@ -7,7 +7,7 @@ const App = () => {
     return (
         <>
             <Footer/>
-            <div className="px-5">
+            <div>
                 <Header/>
                 <Homepage/>
             </div>
