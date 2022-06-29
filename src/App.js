@@ -8,7 +8,7 @@ const App = () => {
     return (
         <>
             <TopBar/>
-            <div >
+            <div>
                 <Header/>
                 <Homepage/>
                 <BottomFooter />
