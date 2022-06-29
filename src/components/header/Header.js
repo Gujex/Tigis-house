@@ -6,8 +6,8 @@ import Icons from "./header-icons/Icons";
 const Header = () => {
     return (
         <div>
-            <nav className=" d-flex align-items-center justify-content-between w-100 border-bottom flex-wrap">
-                <ul className="d-flex list-unstyled col-lg-5 ">
+            <nav className="px-5 d-flex align-items-center justify-content-between w-100 border-bottom flex-wrap">
+                <ul className="d-flex list-unstyled col-lg-5 m-0">
                     <li className='nav_item m-2'>Home</li>
                     <div className="dropdown">
                         <li className='products_parent dropbtn'>Products</li>

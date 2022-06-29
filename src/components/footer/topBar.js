@@ -3,7 +3,7 @@ import {FiFacebook, } from "react-icons/fi";
 import {AiOutlineInstagram} from "react-icons/ai";
 import {HiOutlineMail, HiOutlineLocationMarker} from "react-icons/hi";
 
-const Footer = () => {
+const TopBar = () => {
     return (
         <div  className="bg-danger ">
             <div className="col-lg-3 col-md-3 col-sm-3 text-lg-left px-5 d-flex justify-content-between align-items-center h-100 w-100">
@@ -20,4 +20,4 @@ const Footer = () => {
     );
 };
 
-export default Footer;
+export default TopBar;
