@@ -22,7 +22,7 @@ const Header = () => {
                     <li className='nav_item m-2'>About</li>
                     <li className='nav_item m-2'>Blog</li>
                 </ul>
-                <div className="col-lg-2">
+                <div className="col-lg-2 text-center">
                     <img width="auto" height={120} className="h-5 " alt="logo" src={logo}/>
                 </div>
                <Icons />

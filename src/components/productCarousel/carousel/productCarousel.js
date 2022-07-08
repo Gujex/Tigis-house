@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Carousel from 'react-elastic-carousel';
 import Item from "./item";
-
+import CarouselTitle from "../carouselTitle/CarouselTitle";
 const ProductCarousel = () => {
     const [products, setProducts] = useState([
         {item: 11},
@@ -24,7 +24,9 @@ const ProductCarousel = () => {
 
 
     return (
-        <Carousel className="px-4" breakPoints={breakPoints} itemsToScroll={2} isRTL={false}>
+        <div style={{backgroundColor:"#F8F0E9"}} >
+            <CarouselTitle />
+        <Carousel  className="px-4 py-4 " breakPoints={breakPoints} itemsToScroll={2} isRTL={false}>
             {products.map(el => <Item>
                 <div className="text-center position-absolute bottom-0 p-5">
                     <h6  > some product</h6>
@@ -32,6 +34,7 @@ const ProductCarousel = () => {
                 </div>
             </Item>)}
         </Carousel>
+        </div>
     );
 };
 
