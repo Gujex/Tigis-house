@@ -10,4 +10,5 @@ const CarouselTitle = () => {
         </div>
     );
 };
+
 export default CarouselTitle;
