@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../images/logos/Logo.png'
 import "./header.css"
 import Icons from "./header-icons/Icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -10,7 +11,8 @@ const Header = () => {
                 <ul className="d-flex list-unstyled col-lg-5 m-0">
                     <li className='nav_item m-2'>Home</li>
                     <div className="dropdown">
-                        <li className='products_parent dropbtn'>Products</li>
+                        <Link to="/Products">
+                        <li className='products_parent dropbtn'>Products</li></Link>
                         <ul className="dropdown-content products_list " id="to-show">
                             <li className="list-group-item">Cras justo odio</li>
                             <li className="list-group-item">Dapibus ac facilisis in</li>
